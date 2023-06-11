@@ -17,11 +17,11 @@
             <div class="box-height-20"></div>
             <div class="d-flex justify-content-between pad-l-r">
                 <a href="{{ url('/welcome') }}">
-                    <img class="img-fluid" src="{{ url('/home/assets/img/page5/change_back.png') }}" style="height: 35px; width:100%;" />
+                    <img class="img-fluid" src="{{ url('/home/assets/img/page5/change_back.png') }}" style="height: 35px; width:82px;" />
                 </a>
                
                 <a href="{{ url('/logout') }}">
-                    <img class="img-fluid" src="{{ url('/home/assets/img/page5/Logout.png') }}" style="height: 35px; width:100%;">
+                    <img class="img-fluid" src="{{ url('/home/assets/img/page5/Logout.png') }}" style="height: 35px; width:82px;">
                 </a>
             </div>
                 <a href="{{ url('/welcome') }}">
