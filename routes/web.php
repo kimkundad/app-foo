@@ -35,7 +35,7 @@ Route::get('/images/{file}', function ($file) {
   })->where('file', '.+');
 
 
-Route::get('/call_percent', [App\Http\Controllers\HomeController::class, 'call_percent'])->name('call_percent');
+Route::get('/call_percent', [App\Http\Controllers\ApiController::class, 'call_percent'])->name('call_percent');
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'welcome'])->name('welcome');
 
