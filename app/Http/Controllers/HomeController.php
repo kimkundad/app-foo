@@ -84,9 +84,12 @@ class HomeController extends Controller
 
     public function call_percent(){
 
+        $per = rand(75,100);
+
         return response()->json([
             'data' => [
               'msg' => 'success',
+              'per' => $per
             ]
           ]);
 
