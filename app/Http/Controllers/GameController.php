@@ -29,10 +29,14 @@ class GameController extends Controller
             ->leftjoin('categories', 'categories.id',  'games.cat_id')
             ->paginate(15);
 
+        
+
         if(isset($objs)){
             foreach($objs as $u){
+                 $room = [];
                  $count = room::where('game_id', $u->id)->count();
-                 $u->option = $count;
+                 $room[] = $count;
+                 $u->option = $room;
                 // $u->option = 0;
             }
         }
