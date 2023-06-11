@@ -38,6 +38,7 @@ class GameController extends Controller
                 // $u->option = 0;
             }
         }
+        dd($objs);
         $objs->setPath('');
         $data['objs'] = $objs;
         return view('admin.games.index', compact('objs'));
