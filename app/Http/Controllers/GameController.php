@@ -35,7 +35,7 @@ class GameController extends Controller
             foreach($objs as $u){
                  $room = [];
                  $count = room::where('game_id', $u->id)->count();
-                 $room[] = $count;
+                 $room = $count;
                  $u->option = $room;
                 // $u->option = 0;
             }
