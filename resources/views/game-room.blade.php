@@ -56,7 +56,7 @@
                             <img src="{{ url('/home/assets/img/page5/Rectangle.png') }}" style="width: 100%;">
                         </div>
                         <div class="d-flex justify-content-around">
-                            <p class="bar_3_round_p5">Sexy : 01</p>
+                            <p class="bar_3_round_p5">{{ $objs->room }}</p>
                             <p class="bar_3_round_p5" id="round-count">ครั้งที่ 1</p>
                             <p class="bar_3_round_p5" id="round">รอบที่ 1</p>
                         </div>
