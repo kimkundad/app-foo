@@ -116,7 +116,7 @@
                                                 {{ $item->cat_name }}
                                                </td>
                                            <td> 
-                                            {{ $item->option }}
+                                            {{ $item->options }}
                                            </td>
                                            
                                             <td>
