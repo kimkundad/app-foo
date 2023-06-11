@@ -264,6 +264,7 @@ span, p , li ,strong, option , label, input, a, b {
     margin-top: -30px;
 }
 .gameName-p6{
+  height: 12px;
     color: #d9b03f;
     font-weight: 500;
     font-size: 8px;
