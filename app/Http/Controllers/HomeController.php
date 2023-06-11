@@ -84,12 +84,24 @@ class HomeController extends Controller
 
     public function call_percent(){
 
-        $per = rand(75,100);
+        $room = room::where('room_status', 1)->get();
+        if(isset($room)){
+            foreach($room as $u){
+
+                // $per = rand(75,100);
+
+                room::where('id', $u->id)
+                ->update([
+                    'percent' => rand(75,100)
+                    ]);
+
+            }
+        }
+        
 
         return response()->json([
             'data' => [
-              'msg' => 'success',
-              'per' => $per
+              'msg' => 'success'
             ]
           ]);
 
