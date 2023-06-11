@@ -81,4 +81,15 @@ class HomeController extends Controller
   
         return view('rooms-slot', compact('objs', 'game'));
     }
+
+    public function call_percent(){
+
+        return response()->json([
+            'data' => [
+              'msg' => 'success',
+            ]
+          ]);
+
+
+    }
 }
