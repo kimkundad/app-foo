@@ -254,6 +254,7 @@
                                             <th class="p-0 ">Hot Game</th>
                                             <th class="p-0 ">อัตราชนะ</th>
                                             <th class="p-0 ">เปิด / ปิด</th>
+                                            <th class="p-0 ">อัพเดท</th>
                                             <th class="p-0 "></th>
                                         </tr>
                                     </thead>
@@ -291,6 +292,9 @@
                                                     value="1"/>
                                                     <label class="form-check-label" for="allowmarketing"></label>
                                                 </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-danger fw-bold text-hover-primary mb-1 fs-7">{{ $item->updated_at }} %</a>
                                             </td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end flex-shrink-0">
