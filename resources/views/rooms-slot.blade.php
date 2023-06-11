@@ -60,7 +60,7 @@
                         <div class=" col-4-new">
                             <div class="text-center">
                                 <a href="#">
-                                    <div class="bg-game-slot" style="width: 115px; padding: 6px 6px; }}');">
+                                    <div class="bg-game-slot" style="width: 117px; padding: 6px 6px; }}');">
                                         <div class="d-flex justify-content-between">
                                             <img src="{{ url('images/game/room/'.$u->room_image) }}" style="width: 38px; height: 38px; border-radius: 5px;">
                                             <div class="text-center">
