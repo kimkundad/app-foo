@@ -33,12 +33,14 @@ class GameController extends Controller
 
         if(isset($objs)){
             foreach($objs as $u){
+                $optionsRes = [];
                  $count = room::where('game_id', $u->id)->count();
-                 $u->options = $count;
+                 $optionsRes['count'] = $count;
+                 $u->options = $optionsRes;
                 // $u->option = 0;
             }
         }
-        dd($objs);
+   
         $objs->setPath('');
         $data['objs'] = $objs;
         return view('admin.games.index', compact('objs'));
