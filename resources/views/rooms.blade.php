@@ -16,7 +16,7 @@
         <div id="content" class="flex ">
             <div class="box-height-20"></div>
             <div class="d-flex justify-content-between pad-l-r">
-                <a href="{{ url('games/'.$game->id) }}">
+                <a href="{{ url('games/'.$game->cat_id) }}">
                     <img class="img-fluid" src="{{ url('/home/assets/img/page5/change_room.png') }}" style="height: 35px; width:100%;" />
                 </a>
                 <a href="{{ url('/logout') }}">
