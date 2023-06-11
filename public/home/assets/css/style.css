@@ -1,0 +1,358 @@
+/*
+Custom css
+*/
+
+body {
+    background: #17181c;
+}
+body, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Prompt', sans-serif !important;
+}
+span, p , li ,strong, option , label, input, a, b {
+  font-family: 'Prompt', sans-serif !important;
+}
+.bg-game-slot{
+  background-image: url('../img/Rectangle_4.png');
+    /* background-position: center center; home/assets/img/page6/Rectangle.png */ 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chakra-container{
+    background-image: url('../img/BG.jpg');
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .chakra-container-page{
+    background-image: url('../img/BG_2.jpg');
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    min-height: 1200px;
+  }
+  
+  .chakra-container-page3{
+    background: url('../img/BG_2.jpg') no-repeat center center fixed; 
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+  }
+
+
+  .chakra-container-page5{
+    background: url('../img/page5/BG5.jpg') no-repeat center center fixed; 
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    min-height: 800px;
+
+  }
+  .chakra-container-f{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .d-footer{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1500;
+    left: 0px;
+    bottom: 0px;
+  }
+  .logo_website{
+    width: 100%;
+    padding: 30px;
+  }
+  .logo_website3{
+    width: 100%;
+    padding: 15px 80px 30px 80px;
+  }
+  .box-height-20{
+    height: 20px;
+  }
+  .box-height-10{
+    height: 10px;
+  }
+  .bg-footer{
+    width: 100%;
+    margin-inline: auto;
+    max-width: 100%;
+    padding-inline-start: 0.25rem;
+    padding-inline-end: 0.25rem;
+    padding: 0px;
+    background: #fff;
+    background-image: url('../img/tab_yello.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .nav-footer-a{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1 1 0%;
+    padding: 0.75rem 0.75rem;
+    color: #000 !important;
+    position: relative;
+    max-width: 120px!important;
+  }
+  .nav-footer-a i{
+    font-size: 30px;
+    color: #000 !important;
+  }
+  .nav-footer-a p{
+    font-size: 14px;
+    color: #000 !important;
+    margin-bottom: 0px;
+  }
+  .width-25 {
+    width: 25%;
+  }
+  .width-75 {
+    width: 65%;
+  }
+  .col-form-label{
+    text-align: end;
+    padding: 0px 10px 0px 0px;
+  }
+  .button_yellows {
+    border: none;
+    background: url('../img/LOGIN.png') no-repeat top left;
+    padding: 2px 8px;
+}
+.contain_img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contain_img_2{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -40px ;
+}
+.text-yello{
+    color: #e0ac3e;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -115px;
+}
+.text-yello2{
+    color: #e0ac3e;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -103px;
+}
+.text-yello-p3{
+    color: #666;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -30px;
+}
+.text-yello-p4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -35px;
+}
+.col-4-new{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    min-height: 140px;
+}
+.col-6-new{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+.text-racking-p4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: -70px;
+}
+.text-racking-room-p4{
+    color: #d9b03f;
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: -20px;
+}
+.pad-l-r{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text-white-p5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -25px;
+}
+.text-online-p5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.bar_3_round_p5{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -28px;
+}
+.item_R-p5{
+    margin-top: 16px;
+    text-align: end;
+}
+.percen_p5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-yello-p5-stick{
+    color: #d9b03f;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -28px;
+    font-style: italic;
+}
+.black_text_p5{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.white_text_p5{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.gameName-p6{
+    color: #d9b03f;
+    font-weight: 500;
+    font-size: 8px;
+    margin-bottom: 0rem;
+}
+.winrate{
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+    margin-bottom: 0rem;
+    margin-top: -2px;
+}
+.percen_winrate{
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0rem;
+    -webkit-text-stroke: 0.5px #fff;
+    margin-top: -5px;
+}
+.text-white-pre-p5{
+    font-weight: 500;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: -12px;
+    height: 12px;
+}
+.invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #f54394;
+}
+.gd-warning {
+  color: #fff;
+  border: none;
+  background: #DF2669 linear-gradient(45deg, #DF2669, #F5BA3B);
+}
+.coin {
+  width: 85%;
+  -webkit-animation: scale 1.3s alternate infinite ease-in;
+  animation: scale 1.3s alternate infinite ease-in
+}
+
+@-webkit-keyframes scale {
+  0% {
+      -webkit-transform: scale(.8);
+      transform: scale(.8)
+  }
+
+  100% {
+      -webkit-transform: scale(1);
+      transform: scale(1)
+  }
+}
+
+@keyframes scale {
+  0% {
+      -webkit-transform: scale(.8);
+      transform: scale(.8)
+  }
+
+  100% {
+      -webkit-transform: scale(1);
+      transform: scale(1)
+  }
+}
+.logo_website4{
+  width: 100%;
+  padding: 15px 80px 10px 80px;
+}
+.modal-dialog {
+  height: 100%;
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.modal-content {
+  margin: 0 auto;
+}
+.result_role{
+  width: 100%; height:38px
+}
+.mywin{
+  width: 55px; margin-top: -8px;
+}
+.box-height-40{
+  height: 80px;
+}
