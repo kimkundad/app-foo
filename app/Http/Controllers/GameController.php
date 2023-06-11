@@ -33,7 +33,7 @@ class GameController extends Controller
 
         if(isset($objs)){
             foreach($objs as $u){
-                 $count = room::where('game_id', $u->id)->count();
+                 $count = room::where('game_id', $u->id_q)->count();
                  $u->options = $count;
                 // $u->option = 0;
             }
