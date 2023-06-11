@@ -1,8 +1,8 @@
 @extends('admin.layouts.template')
 
 @section('title')
-    <title>XXX - สูตรบาร์ที่ดีที่สุดและแม่นยำที่สุดในไทย อันดับ 1</title>
-    <meta name="description" content=" XXX - สูตรบาร์ที่ดีที่สุดและแม่นยำที่สุดในไทย อันดับ 1">
+    <title>สูตรบาคาร่า5ดาว -สูตรบาร์ที่ดีที่สุดและแม่นยำที่สุดในไทย อันดับ 1</title>
+    <meta name="description" content=" สูตรบาคาร่า5ดาว -สูตรบาร์ที่ดีที่สุดและแม่นยำที่สุดในไทย อันดับ 1">
 @stop
 @section('stylesheet')
 
