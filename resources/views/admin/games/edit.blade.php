@@ -294,7 +294,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <a href="#" class="text-danger fw-bold text-hover-primary mb-1 fs-7">{{ $item->updated_at }} %</a>
+                                                <a href="#" class="text-muted fw-bold text-hover-primary mb-1 fs-7">{{ $item->updated_at }} </a>
                                             </td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end flex-shrink-0">
