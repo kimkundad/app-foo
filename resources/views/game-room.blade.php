@@ -13,6 +13,7 @@
     overflow: visible;
     background-color: rgb(255 255 255);
 }
+
 </style>
 
 @stop('stylesheet')
@@ -148,7 +149,7 @@
 </div>
 
 
-<div id="winModal" class="modal fade" data-backdrop="true">
+<div id="winModal" class="modal centerxx_mo  fade" data-backdrop="true">
     <div class="modal-dialog " style="width: 100%; margin:0">
         <div class="modal-content " style="background-color: transparent;">
             <img class="img-fluid" src="{{ url('/img/win.png') }}" alt="Reset">
@@ -227,9 +228,9 @@
       nextRound();
       $('#winModal').modal('show');
 
-      setTimeout(function(){
-        $('#winModal').modal('hide');      
-      }, 2000);
+      // setTimeout(function(){
+      //   $('#winModal').modal('hide');      
+      // }, 2000);
 
       reset();
     }

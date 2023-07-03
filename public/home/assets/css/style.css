@@ -357,3 +357,19 @@ span, p , li ,strong, option , label, input, a, b {
 .box-height-40{
   height: 80px;
 }
+
+.centerxx_mo {
+  left: calc(50% - 260px);
+}
+
+@media (max-width: 450px) {
+  .centerxx_mo {
+    left: calc(50% - 230px);
+  }
+}
+
+@media (max-width: 414px) {
+  .centerxx_mo {
+    left: calc(50% - 210px);
+  }
+}
