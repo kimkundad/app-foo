@@ -98,15 +98,10 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end flex-column">
-                            <div class="item_R-p5">
-                                <img src="{{ url('/home/assets/img/page5/ไพ่คู่.png') }}" style="width: 55px;">
+                            <div class="item_R-p5" style="margin-top: 8px;">
+                                <img id="ecoin" src="{{ url('/home/assets/img/page5/step_4.png') }}" style="width: 65px;">
                             </div>
-                            <div class="item_R-p5">
-                                <img src="{{ url('/home/assets/img/page5/เสมอ.png') }}" style="width: 55px;">
-                            </div>
-                            <div class="item_R-p5">
-                                <img src="{{ url('/home/assets/img/page5/ไพป็อก.png') }}" style="width: 55px;">
-                            </div>
+                            
                             <div class="item_R-p5">
                             <div class="box-height-10"></div>
                             <a>
@@ -198,7 +193,7 @@
   
       $("#wait").hide();
       $('#winModal').on('hidden.bs.modal', function (e) {
-        // randomExtraCoin();
+         randomExtraCoin();
       })
   
       casino = "sa";
@@ -241,7 +236,7 @@
         reset();
         addRow('LOSE');
         nextRound();
-        // randomExtraCoin();
+       //  randomExtraCoin();
       }
     }
   
@@ -297,25 +292,21 @@
     }
   
     function randomExtraCoin(isWin) {
-      $("#ecoin").attr("src" , "/assets/e_coin_r-3281a897b4e2791dc71b114b9ed7249a0eb8848c1f1f0ae52c3e1bd0858e80d2.gif" );
-      $("#mecoin").attr("src" , "/assets/e_coin_r-3281a897b4e2791dc71b114b9ed7249a0eb8848c1f1f0ae52c3e1bd0858e80d2.gif" );
+      $("#ecoin").attr("src" , "{{ url('/home/assets/img/page5/step_run.gif') }}" );
       setTimeout(function() {
         var randomHasExtraCoin = getRandomInt(1, 100);
         if (randomHasExtraCoin % 2 == 0) {
           var randomExtraCoin = getRandomInt(1, 3);
+          console.log('randomExtraCoin', randomExtraCoin)
           if (randomExtraCoin == 1) {
-            $("#ecoin").attr("src" , "/assets/e_coin_a_1-6690e5a39edf579b70f03a7a3cad582094fa873e1c7fa78cb3a4b5b0d994ed06.png" );
-            $("#mecoin").attr("src" , "/assets/e_coin_a_1-6690e5a39edf579b70f03a7a3cad582094fa873e1c7fa78cb3a4b5b0d994ed06.png" );
+            $("#ecoin").attr("src" , "{{ url('/home/assets/img/page5/step_1.png') }}" );
           } else if (randomExtraCoin == 2) {
-            $("#ecoin").attr("src" , "/assets/e_coin_a_2-61ff201698671236302b518049bc45a8aa660ba9c6778d87743c1201e5cf9556.png" );
-            $("#mecoin").attr("src" , "/assets/e_coin_a_2-61ff201698671236302b518049bc45a8aa660ba9c6778d87743c1201e5cf9556.png" );
+            $("#ecoin").attr("src" , "{{ url('/home/assets/img/page5/step_2.png') }}" );
           } else if (randomExtraCoin == 3) {
-            $("#ecoin").attr("src" , "/assets/e_coin_a_3-440f7144192ff79d375918e064097c986dbf94522b09690b22704dd9cacf40fb.png" );
-            $("#mecoin").attr("src" , "/assets/e_coin_a_3-440f7144192ff79d375918e064097c986dbf94522b09690b22704dd9cacf40fb.png" );
+            $("#ecoin").attr("src" , "{{ url('/home/assets/img/page5/step_3.png') }}" );
           }
         } else {
-          $("#ecoin").attr("src" , "/assets/e_coin_d-d63d8cc408997aafca540806e7eda73e0917b4749d9ebde6f161ef19f9f0bedf.png" );
-          $("#mecoin").attr("src" , "/assets/e_coin_d-d63d8cc408997aafca540806e7eda73e0917b4749d9ebde6f161ef19f9f0bedf.png" );
+          $("#ecoin").attr("src" , "{{ url('/home/assets/img/page5/step_4.png') }}" );
         }
       }, 5 * 1000);
     }

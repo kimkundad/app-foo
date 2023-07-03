@@ -22,7 +22,7 @@ class ApiController extends Controller
 
                 room::where('id', $u->id)
                 ->update([
-                    'percent' => rand(75,100)
+                    'percent' => rand(75,96)
                     ]);
 
             }
