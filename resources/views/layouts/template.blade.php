@@ -36,9 +36,10 @@
 $now = time(); // or your date as well
         $your_date = strtotime(Auth::user()->birthday);
         $datediff = $your_date - $now;
-        $sumday = round($datediff / (60 * 60 * 24));
+        $$sumday = (int) round($datediff / (60 * 60 * 24));
+    
         @endphp
-        @if($sumday <= 0)
+        @if($sumday < 0)
  
             <script>window.location = "{{ url('/logout') }}";</script>
         @endif
