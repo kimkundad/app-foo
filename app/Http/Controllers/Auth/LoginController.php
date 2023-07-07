@@ -66,9 +66,9 @@ class LoginController extends Controller
         $now = time(); // or your date as well
         $your_date = strtotime($request->user()->birthday);
         $datediff = $your_date - $now;
-        $sumday = ($datediff / (60 * 60 * 24));
-        dd($sumday);
-        if($sumday < 0 ){
+        $sumday = (int) round($datediff / (60 * 60 * 24));
+  
+        if($sumday < 0){
             $request->session()->flush();
             return redirect(url('login'))->with('expired','อายุใช้งานของคุณหมด กรุณาติดต่อเจ้าหน้าที่');
         }else{
