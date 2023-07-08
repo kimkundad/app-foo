@@ -38,8 +38,14 @@ $now = time(); // or your date as well
         $datediff = $your_date - $now;
         
         $sumday = (int) round($datediff / (60 * 60 * 24));
+
+        $oneToken = Session::get('oneToken');
     
         @endphp
+        
+        @if(Auth::user()->access_token !== $oneToken)
+        <script>window.location = "{{ url('/logout') }}";</script>
+        @endif
         @if($sumday < 0)
  
             <script>window.location = "{{ url('/logout') }}";</script>
