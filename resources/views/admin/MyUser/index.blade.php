@@ -135,7 +135,7 @@
                                             $datediff = $your_date - $now;
                                             $sumday = (int) round($datediff / (60 * 60 * 24));
                                             @endphp
-                                            <td>
+                                            <td id="{{$sumday}}">
                                                 @if($sumday < 0)
                                                 <b class="text-danger"> หมดอายุแล้ว </b>
                                                 @elseif($sumday <= 7)
