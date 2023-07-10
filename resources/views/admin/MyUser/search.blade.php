@@ -136,7 +136,7 @@
                                             $sumday = (int) round($datediff / (60 * 60 * 24));
                                             @endphp
                                             <td>
-                                                @if($sumday <= 0)
+                                                @if($sumday < 0)
                                                 <b class="text-danger"> หมดอายุแล้ว </b>
                                                 @elseif($sumday <= 7)
                                                 <b class="text-warning"> {{ $item->birthday }}  ใกล้อายุแล้ว </b>
