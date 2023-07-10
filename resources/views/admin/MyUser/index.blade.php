@@ -133,7 +133,7 @@
                                             $now = time(); // or your date as well
                                             $your_date = strtotime($item->birthday);
                                             $datediff = $your_date - $now;
-                                            $sumday = round($datediff / (60 * 60 * 24));
+                                            $sumday = (int) round($datediff / (60 * 60 * 24));
                                             @endphp
                                             <td>
                                                 @if($sumday < 0)
