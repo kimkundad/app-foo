@@ -229,8 +229,10 @@
                                             @isset($Role)
                                                 @foreach ($Role as $item)
                                                     <option value="{{ $item->id }}" 
+                                                        @if($get_role)
                                                         @if( $get_role->role_id == $item->id)
                                                         selected='selected'
+                                                        @endif
                                                         @endif
                                                         >{{ $item->name }}</option>
                                                 @endforeach
