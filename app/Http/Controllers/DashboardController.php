@@ -14,7 +14,10 @@ class DashboardController extends Controller
 
     public function index(){
 
+
+
         $pro = User::count();
+        dd($pro);
         $user_day = User::whereDate('created_at', date('Y-m-d'))->count();
         $game = Game::count();
         $room = room::count();
